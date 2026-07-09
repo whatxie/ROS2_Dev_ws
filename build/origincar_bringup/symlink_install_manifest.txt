@@ -1,0 +1,15 @@
+/userdata/dev_ws/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+/userdata/dev_ws/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/package.dsv
+/userdata/dev_ws/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/package.xml

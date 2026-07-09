@@ -1,0 +1,59 @@
+[0.152s] Invoking command in '/userdata/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/origincar_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/origincar_description
+[0.589s] -- The C compiler identification is GNU 11.2.0
+[0.992s] -- The CXX compiler identification is GNU 11.2.0
+[1.043s] -- Detecting C compiler ABI info
+[1.439s] -- Detecting C compiler ABI info - done
+[1.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.488s] -- Detecting C compile features
+[1.490s] -- Detecting C compile features - done
+[1.505s] -- Detecting CXX compiler ABI info
+[1.907s] -- Detecting CXX compiler ABI info - done
+[1.956s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.957s] -- Detecting CXX compile features
+[1.960s] -- Detecting CXX compile features - done
+[1.972s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.025s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.423s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.601s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.107s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.120s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.123s] -- Added test 'lint_cmake' to check CMake code style
+[4.127s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.134s] -- Added test 'xmllint' to check XML markup files
+[4.142s] -- Configuring done
+[4.156s] -- Generating done
+[4.164s] -- Build files have been written to: /userdata/dev_ws/build/origincar_description
+[4.194s] Invoked command in '/userdata/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/origincar_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/origincar_description
+[4.200s] Invoking command in '/userdata/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/origincar_description -- -j8 -l8
+[4.402s] Invoked command in '/userdata/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/origincar_description -- -j8 -l8
+[4.411s] Invoking command in '/userdata/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/origincar_description
+[4.452s] -- Install configuration: ""
+[4.454s] -- Execute custom install script
+[4.456s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch
+[4.498s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch.py
+[4.548s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/launch/gazebo.launch
+[4.603s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.urdf
+[4.651s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.xacro
+[4.705s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/rviz/README
+[4.751s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/rviz/display.rviz
+[4.805s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/base_link.STL
+[4.854s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL
+[4.905s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL
+[4.958s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL
+[5.010s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL
+[5.065s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description
+[5.111s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description
+[5.156s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh
+[5.207s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv
+[5.259s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/path.sh
+[5.309s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/path.dsv
+[5.359s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.bash
+[5.409s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.sh
+[5.462s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.zsh
+[5.513s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.dsv
+[5.563s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/package.dsv
+[5.613s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/ament_index/resource_index/packages/origincar_description
+[5.665s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake
+[5.714s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake
+[5.767s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/package.xml
+[5.837s] Invoked command in '/userdata/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/origincar_description

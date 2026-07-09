@@ -1,0 +1,7 @@
+{
+  "package_name": "ackermann_msgs",
+  "non_idl_tuples": [
+    "/userdata/dev_ws/src/origincar/3rdparty/ackermann_msgs-ros2:msg/AckermannDrive.msg",
+    "/userdata/dev_ws/src/origincar/3rdparty/ackermann_msgs-ros2:msg/AckermannDriveStamped.msg"
+  ]
+}

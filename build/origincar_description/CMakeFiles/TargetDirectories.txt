@@ -1,0 +1,9 @@
+/userdata/dev_ws/build/origincar_description/CMakeFiles/uninstall.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/origincar_description_uninstall.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/test.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/edit_cache.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/rebuild_cache.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/list_install_components.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/install.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/install/local.dir
+/userdata/dev_ws/build/origincar_description/CMakeFiles/install/strip.dir

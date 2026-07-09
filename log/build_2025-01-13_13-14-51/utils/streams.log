@@ -1,0 +1,63 @@
+[0.095s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/utils
+[0.736s] -- The C compiler identification is GNU 11.2.0
+[1.460s] -- The CXX compiler identification is GNU 11.2.0
+[1.509s] -- Detecting C compiler ABI info
+[1.927s] -- Detecting C compiler ABI info - done
+[2.015s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.018s] -- Detecting C compile features
+[2.021s] -- Detecting C compile features - done
+[2.038s] -- Detecting CXX compiler ABI info
+[2.481s] -- Detecting CXX compiler ABI info - done
+[2.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.562s] -- Detecting CXX compile features
+[2.563s] -- Detecting CXX compile features - done
+[2.577s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.719s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.413s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.631s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.656s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.700s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.158s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.179s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.664s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.805s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.012s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.081s] -- Looking for pthread.h
+[6.494s] -- Looking for pthread.h - found
+[6.496s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.914s] -- Found Threads: TRUE  
+[7.295s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[7.620s] -- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)
+[8.231s] -- Configuring done
+[8.294s] -- Generating done
+[8.317s] -- Build files have been written to: /userdata/dev_ws/build/utils
+[8.396s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/utils
+[8.404s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/utils -- -j8 -l8
+[8.627s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport_node.dir/src/image_transport_node.cpp.o[0m
+[72.637s] [100%] [32m[1mLinking CXX executable image_transport_node[0m
+[77.745s] [100%] Built target image_transport_node
+[77.792s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/utils -- -j8 -l8
+[77.799s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/utils
+[77.832s] -- Install configuration: ""
+[77.833s] -- Execute custom install script
+[77.835s] -- Symlinking: /userdata/dev_ws/install/utils/lib/utils/image_transport_node
+[77.874s] -- Symlinking: /userdata/dev_ws/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+[77.913s] -- Symlinking: /userdata/dev_ws/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+[77.953s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/environment/ament_prefix_path.sh
+[77.992s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/environment/ament_prefix_path.dsv
+[78.030s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/environment/path.sh
+[78.068s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/environment/path.dsv
+[78.107s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/local_setup.bash
+[78.146s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/local_setup.sh
+[78.183s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/local_setup.zsh
+[78.221s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/local_setup.dsv
+[78.261s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/package.dsv
+[78.300s] -- Symlinking: /userdata/dev_ws/install/utils/share/ament_index/resource_index/packages/utils
+[78.338s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/cmake/utilsConfig.cmake
+[78.376s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/cmake/utilsConfig-version.cmake
+[78.414s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/package.xml
+[78.460s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/utils

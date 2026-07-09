@@ -1,0 +1,71 @@
+[0.098s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/3rdparty/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/serial
+[0.773s] -- The C compiler identification is GNU 11.2.0
+[1.493s] -- The CXX compiler identification is GNU 11.2.0
+[1.542s] -- Detecting C compiler ABI info
+[1.970s] -- Detecting C compiler ABI info - done
+[2.051s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.052s] -- Detecting C compile features
+[2.057s] -- Detecting C compile features - done
+[2.075s] -- Detecting CXX compiler ABI info
+[2.515s] -- Detecting CXX compiler ABI info - done
+[2.593s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.596s] -- Detecting CXX compile features
+[2.600s] -- Detecting CXX compile features - done
+[2.608s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.617s] -- Found ament_cmake_core: 1.3.10 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[3.750s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.272s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.380s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.420s] -- Configuring done
+[5.444s] -- Generating done
+[5.455s] -- Build files have been written to: /userdata/dev_ws/build/serial
+[5.485s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/3rdparty/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/serial
+[5.492s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[5.712s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[5.712s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[5.713s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[7.523s] [01m[K/userdata/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[7.524s] [01m[K/userdata/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[7.524s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[7.525s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.525s] [01m[K/userdata/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[7.526s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[7.527s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[7.542s] [01m[K/userdata/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[7.542s] [01m[K/userdata/dev_ws/src/origincar/3rdparty/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[7.543s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[7.544s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[8.710s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[8.873s] [100%] Built target serial
+[8.923s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[8.929s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial
+[8.962s] -- Install configuration: ""
+[8.964s] -- Execute custom install script
+[8.966s] -- Symlinking: /userdata/dev_ws/install/serial/lib/libserial.a
+[9.009s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/library_path.sh
+[9.048s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[9.091s] -- Symlinking: /userdata/dev_ws/install/serial/include/serial/impl/unix.h
+[9.130s] -- Symlinking: /userdata/dev_ws/install/serial/include/serial/impl/win.h
+[9.170s] -- Symlinking: /userdata/dev_ws/install/serial/include/serial/serial.h
+[9.210s] -- Symlinking: /userdata/dev_ws/install/serial/include/serial/v8stdint.h
+[9.248s] -- Symlinking: /userdata/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[9.285s] -- Symlinking: /userdata/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[9.324s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[9.364s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[9.404s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/path.sh
+[9.443s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/environment/path.dsv
+[9.482s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.bash
+[9.523s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.sh
+[9.562s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.zsh
+[9.603s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/local_setup.dsv
+[9.644s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/package.dsv
+[9.684s] -- Symlinking: /userdata/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[9.722s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.760s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[9.799s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.839s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[9.878s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[9.919s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/package.xml
+[9.970s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial

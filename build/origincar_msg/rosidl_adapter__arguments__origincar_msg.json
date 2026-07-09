@@ -1,0 +1,7 @@
+{
+  "package_name": "origincar_msg",
+  "non_idl_tuples": [
+    "/userdata/dev_ws/src/origincar/origincar_msg:msg/Data.msg",
+    "/userdata/dev_ws/src/origincar/origincar_msg:msg/Sign.msg"
+  ]
+}

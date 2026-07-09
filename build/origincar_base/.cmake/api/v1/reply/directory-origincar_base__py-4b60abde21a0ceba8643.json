@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "origincar_base__py",
+		"source" : "/userdata/dev_ws/build/origincar_base/origincar_base__py"
+	}
+}

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/userdata/dev_ws/build/origincar_base/origincar_base_node" "TARGETS" "origincar_base_node" "DESTINATION" "lib/origincar_base" "ARCHIVE_DESTINATION" "LIBRARY_DESTINATION" "RUNTIME_DESTINATION")

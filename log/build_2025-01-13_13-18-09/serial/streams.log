@@ -1,0 +1,33 @@
+[0.101s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[0.267s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.338s] [100%] Built target serial
+[0.415s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[0.428s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial
+[0.490s] -- Install configuration: ""
+[0.496s] -- Execute custom install script
+[0.500s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/lib/libserial.a
+[0.503s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/library_path.sh
+[0.506s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[0.512s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/impl/unix.h
+[0.514s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/impl/win.h
+[0.516s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/serial.h
+[0.519s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/v8stdint.h
+[0.522s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.525s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.528s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.532s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.535s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/path.sh
+[0.538s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/path.dsv
+[0.541s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.bash
+[0.544s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.sh
+[0.558s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.zsh
+[0.561s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.dsv
+[0.567s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/package.dsv
+[0.634s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[0.635s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.636s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.637s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.638s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[0.639s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.641s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/package.xml
+[0.774s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial

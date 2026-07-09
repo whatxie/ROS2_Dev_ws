@@ -1,0 +1,42 @@
+[2.143s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/utils -- -j8 -l8
+[2.315s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.240s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[3.410s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.426s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.459s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.601s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.843s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.858s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.428s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.780s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[5.069s] -- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)
+[5.645s] -- Configuring done
+[5.727s] -- Generating done
+[5.752s] -- Build files have been written to: /userdata/dev_ws/build/utils
+[5.900s] [35m[1mConsolidate compiler generated dependencies of target image_transport_node[0m
+[6.054s] [ 50%] [32mBuilding CXX object CMakeFiles/image_transport_node.dir/src/image_transport_node.cpp.o[0m
+[61.021s] [100%] [32m[1mLinking CXX executable image_transport_node[0m
+[66.108s] [100%] Built target image_transport_node
+[66.160s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/utils -- -j8 -l8
+[66.177s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/utils
+[66.215s] -- Install configuration: ""
+[66.217s] -- Execute custom install script
+[66.221s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/lib/utils/image_transport_node
+[66.222s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+[66.224s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+[66.225s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/ament_prefix_path.sh
+[66.226s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/ament_prefix_path.dsv
+[66.227s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/path.sh
+[66.228s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/path.dsv
+[66.230s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.bash
+[66.231s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.sh
+[66.232s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.zsh
+[66.233s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.dsv
+[66.233s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/package.dsv
+[66.281s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/ament_index/resource_index/packages/utils
+[66.283s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/cmake/utilsConfig.cmake
+[66.284s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/cmake/utilsConfig-version.cmake
+[66.285s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/package.xml
+[66.301s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/utils

@@ -1,0 +1,34 @@
+[2.145s] Invoking command in '/userdata/dev_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/origincar_bringup -- -j8 -l8
+[2.270s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.196s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.708s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.715s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.717s] -- Added test 'lint_cmake' to check CMake code style
+[3.718s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.722s] -- Added test 'xmllint' to check XML markup files
+[3.729s] -- Configuring done
+[3.752s] -- Generating done
+[3.764s] -- Build files have been written to: /userdata/dev_ws/build/origincar_bringup
+[3.870s] Invoked command in '/userdata/dev_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/origincar_bringup -- -j8 -l8
+[3.877s] Invoking command in '/userdata/dev_ws/build/origincar_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/origincar_bringup
+[3.915s] -- Install configuration: ""
+[3.916s] -- Up-to-date: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/launch
+[3.919s] -- Up-to-date: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+[3.921s] -- Execute custom install script
+[3.922s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/ament_index/resource_index/package_run_dependencies/origincar_bringup
+[3.924s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/ament_index/resource_index/parent_prefix_path/origincar_bringup
+[3.926s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.sh
+[3.927s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/ament_prefix_path.dsv
+[3.929s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.sh
+[3.930s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/environment/path.dsv
+[3.931s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.bash
+[3.933s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.sh
+[3.935s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.zsh
+[3.936s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/local_setup.dsv
+[3.937s] -- Symlinking: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/package.dsv
+[3.980s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/ament_index/resource_index/packages/origincar_bringup
+[3.983s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig.cmake
+[3.985s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/cmake/origincar_bringupConfig-version.cmake
+[3.986s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/package.xml
+[3.999s] Invoked command in '/userdata/dev_ws/build/origincar_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/origincar_bringup
